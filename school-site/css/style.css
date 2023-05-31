@@ -79,41 +79,79 @@ header, footer {
 
 /* Imported Typfaces */
 
+@font-face{
+    font-family: coolfont;
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
-
+@font-face {
+    font-family: coolfont;
+    src: url(../fonts/montserrat-regular.ttf); format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
 
 /* Typography Styles */
 
+html {font-size:16px;}
 
+h1 {
+    letter-spacing: .13rem;
+    font-size: 3.75rem;
+    
+    text-align: center;      
+    margin:1.1em;
+}
 
+h2 {}
 
+h2 + p {}
+
+p {}
+
+li {}
+
+figcaption {}
 
 
 /* Link Styling */
-.long-list
 
+a {}
 
+a:link,
+a:visited {}
 
+a:focus,
+a:hover {}
 
 
 /* List Styling */
 
+ul {}
 
+ol {}
 
-
+.long-list a:hover {}
 
 
 /* Navigation Menu */
 
+nav {}
 
+nav a {}
 
+nav a:focus,
+nav a:hover {}
 
+nav a:active {}
 
 
 /* Footer Styles */
 
-
+footer {center}
 
 
 
