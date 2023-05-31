@@ -161,8 +161,10 @@ html {
   
   /* Navigation Menu Styles */
   nav {
-    padding-left: 0;
+    padding-left: 0.5rem;
     margin-top: .3rem;
+    float: left;
+    width:11.25rem;
   }
   
   nav a {
@@ -191,4 +193,5 @@ html {
   /* Footer Styles */
   footer {
     text-align: center;
+    padding: .5rem;
   }
