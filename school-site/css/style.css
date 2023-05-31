@@ -110,7 +110,9 @@ h2 {}
 
 h2 + p {}
 
-p {}
+p {
+    font-size: ;
+}
 
 li {}
 
@@ -139,7 +141,11 @@ ol {}
 
 /* Navigation Menu */
 
-nav {}
+nav {
+    padding-left: 0;
+    margin: 0.9em;
+    font-size: 1.1;
+}
 
 nav a {}
 
