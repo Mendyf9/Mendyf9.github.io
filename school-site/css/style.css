@@ -97,18 +97,34 @@ header, footer {
 /* Typography Styles */
 
 html {font-size:16px;}
-
+header {
+    border-top: 1px solid #33658A;
+    border-bottom: 1px solid #33658A;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
 h1 {
     letter-spacing: .13rem;
     font-size: 3.75rem;
-    
     text-align: center;      
     margin:1.1em;
+    padding: 10px;
 }
 
-h2 {}
+h2 {
+    letter-spacing: .13rem
+    font-size: 
+    
 
-h2 + p {}
+}
+
+h2 + p {
+
+}
 
 p {
     font-size: ;
