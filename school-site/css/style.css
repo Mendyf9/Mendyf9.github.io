@@ -143,28 +143,39 @@ figcaption {
 
 /* Link Styling */
 
-a {}
+a {
+    color: #33658A;
+  text-decoration: none;
+}
 
 a:link,
-a:visited {}
+a:visited {
+    color: #33658A;
+  text-decoration: none;
+}
 
 a:focus,
-a:hover {}
+a:hover {
+    text-decoration: none;
+    outline: none;
+    border-bottom: none;
+}
 
 
 /* List Styling */
 
 ul {
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center; /* Align the links horizontally */
+    list-style-type: square;
 }
 
-ol {}
+ol {
+    margin: 16px 0;
+  padding: 0;
+  list-style-type: lower-alpha;
+}
 
 .long-list a:hover {
-    display: inline-block;
+    text-transform: uppercase;
 }
 
 
@@ -172,14 +183,18 @@ ol {}
 
 nav {
     padding-left: 0;
-    margin-top:  0.9em;
-    font-size: 1.1;
-    background-color: #33658A;
+    margin-top: .25rem;
 }
 
 nav a {
-    padding: ;
-    display: inline-block;
+    text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  border: .06rem solid #33658A;
 }
 
 nav a:focus,
