@@ -100,31 +100,31 @@ html {
   /* Heading Styles */
   h1 {
     font-family: "Josefinslab", Times New Roman, serif;
-    font-size: 60px;
-    margin: 18px 0;
+    font-size: 3.7rem;
+    margin: 1.1rem;
     text-align: center;
   }
   
   h2 {
     font-family: "Josefinslab", Times New Roman, serif;
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   
   /* Paragraph and List Styles */
   p,
   li {
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    word-spacing: 2px;
+    font-size: .7rem;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
   }
   
   h2 + p {
-    text-indent: 24px;
+    text-indent: 1.5rem;
   }
   
   figcaption {
-    font-size: 12px;
-    margin-bottom: 32px;
+    font-size: .7rem;
+    margin-bottom: 2rem;
   }
   
   /* Link Styles */
@@ -143,7 +143,7 @@ html {
   /* List Styles */
   ul,
   ol {
-    margin: 16px 0;
+    margin: 1rem;
     padding: 0;
   }
   
@@ -162,7 +162,7 @@ html {
   /* Navigation Menu Styles */
   nav {
     padding-left: 0;
-    margin-top: 4px;
+    margin-top: .2rem;
   }
   
   nav a {
@@ -171,9 +171,9 @@ html {
     width: 100%;
     line-height: 3;
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 24px;
-    border: 1px solid #33658A;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    border: .06rem solid #33658A;
   }
   
   nav a:focus,
