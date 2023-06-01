@@ -57,46 +57,127 @@ main {
 h1 { 
     text-transform: uppercase;
     font-size:6rem;
+    font-weight: normal;
     margin: 0;
     letter-spacing: .5rem;
-    color:darkred;
+    color:#8b0000;
     text-shadow:.09375rem .09375rem .09375rem rgb(136, 6, 6);
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
+    
 }
 
 h2{ text-transform: uppercase;
-    font: size: 3rem ;
+    color: #8b0000;
+    font-size:  3rem ;
+    font-weight: normal;
     margin: 0;
     letter-spacing: .3rem
-    color: darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;}
+    text-shadow:.09375rem .09375rem .09375rem;
+    font-family: 'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+    
 
-h3{}
 
-h4{}
+h3{
+    font-size: 2rem; 
+    font-family: 'Alfa Slab One' , Garamond, serif;
+    font-weight: normal;
+    text-shadow: none;
+    color: #000000;
+    text-align: center;
+}
 
-h5{}
+h4{
+  font-size: 1.5rem; 
+  letter-spacing: 0.25rem;
+  padding-bottom: 1.125rem; 
+  font-weight: normal;
+  color: #8b0000;
+  text-align: center;
+  font-family: 'Alfa Slab One', Garamond, serif;
+}
+
+h5{
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    padding-left: 0.5rem; 
+    padding-top: .5rem;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-align: center;
+}
 
 
 /* Section & Paragraph */
 
-section {}
+section {
+    margin-top: 0.5rem; /* 8px */
+}
 
-p {}
+p {
+    margin-top: 1rem;
+  margin-bottom: 1rem; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  width: 90%;
+  text-align: left;
+}
 
 
 /* Image & Figure */
 
-img{}
+img{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem; 
+}
 
-figure{}
+figure{
+    margin-top: 1rem; 
+  margin-bottom: 2rem; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+  width: 90%;
+  text-align: left;
+}
 
-figcaption{}
+figcaption{
+    padding-top: 0.5rem; 
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: right;
+}
 
 
 /* Footer */
 
-footer {}
+footer {
+    margin-top: 1rem; /* 16px */
+    margin-bottom: 1rem; /* 16px */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem; /* 16px */
+    padding-bottom: 1rem; /* 16px */
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+    text-align: left;
+    border-top: 2px solid #333333;
+    border-width: 0.5rem; /* 32px */
+}
