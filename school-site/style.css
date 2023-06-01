@@ -160,11 +160,18 @@ html {
   }
   
   /* Navigation Menu Styles */
+  div{
+    width: 100%;
+    border: .06rem solid #33658A;
+    padding: .5rem;
+  }
   nav {
-    padding-left: 0.5rem;
+    text-decoration: none;
+    padding-left: 0rem;
     margin-top: .3rem;
     float: left;
-    width:11.25rem;
+    width:100% 
+    
   }
   
   nav a {
