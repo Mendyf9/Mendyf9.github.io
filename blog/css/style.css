@@ -48,4 +48,90 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+.highlight {
+    box-shadow: darkred;
+    color: tan;
+    font-family:  sans-serif;
+  }
+  
+@font-face {
+    font-family:Lato;
+    font-style:normal;
+    font-weight:normal;
 
+/* Set global styles */
+body {
+    font-family: serif, sans-serif;
+    line-height: 1.5;
+    margin: 20px; 
+  padding: 10px;
+  }
+  
+  
+  /* Apply white space with margin and padding */
+  h1, h2, h3 {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Create contrast in color, size, and scale */
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(8, 8, 8, 0.904);
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(10, 10, 10, 0.925);
+  }
+  
+  /* Apply effective balance, proximity, and alignment using flex */
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+  }
+  
+  /* Apply float to wrap text around an image */
+  .img-wrap {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /* Create line, direction, and movement through borders and transform */
+  .image {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .image:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Use grid to create an image bar */
+  .image-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .image-bar img {
+    width: 50%;
+  }
+  
+  /* Add additional styles specific to your blog content */
+  /* ... */
+  
+  
