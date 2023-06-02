@@ -131,7 +131,12 @@ html {
   a {
     color: #33658A;
     text-decoration: none;
+    outline: none;
   }
+  a:link,
+  a:visited {
+  color: #33658A;
+}
   
   a:focus,
   a:hover {
@@ -149,9 +154,11 @@ html {
   
   ul {
     list-style-type: square;
+    margin: 16px 0;
   }
   
   ol {
+    margin: 16px 0;
     list-style-type: lower-alpha;
   }
   
@@ -166,19 +173,15 @@ html {
     padding: .5rem;
   }
   nav {
-    text-decoration: none;
-    padding-left: 0rem;
-    margin-top: .3rem;
-    float: left;
-    width:100%
-    
-  
+    padding-left: 0;
+    margin-top: 4px;
     
   }
   
   nav a {
+  
     text-decoration: none;
-    display: block;
+    display: inline-block;
     width: 100%;
     line-height: 3;
     text-align: center;
@@ -192,7 +195,7 @@ html {
   nav a:hover {
     color: #FFF;
     background-color: #33658A;
-    padding: .5rem;
+    
   }
   
   nav a:active {
