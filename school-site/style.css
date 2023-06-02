@@ -170,19 +170,22 @@ html {
     padding-left: 0rem;
     margin-top: .3rem;
     float: left;
-    width:100% 
+    width:100%
+    
+  
     
   }
   
   nav a {
     text-decoration: none;
-    display: inline-block;
+    display: block;
     width: 100%;
     line-height: 3;
     text-align: center;
     font-size: 1.12rem;
     margin-bottom: 1.5rem;
     border: .06rem solid #33658A;
+    
   }
   
   nav a:focus,
@@ -195,6 +198,8 @@ html {
   nav a:active {
     color: #FFF;
     background-color: #000;
+  }
+  
   }
   
   /* Footer Styles */
