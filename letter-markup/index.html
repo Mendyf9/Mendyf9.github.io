@@ -7,73 +7,54 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="Fabienne" content="Fabienne Mendy">
      <title>Awesome science application correspondence</title>
+    
      <style>
           html {
-               font-size: 16px;
+          font-size: 16px;
           }
-
           body {
-               max-width: 800px;
-               margin: 0 auto;
+          max-width: 800px;
+          margin: 0 auto;
           }
-
           .sender-column {
-               text-align: right;
+          text-align: right;
           }
-
           h1 {
-               font-size: 1.5rem;
+          font-size: 1.5rem;
           }
-
           h2 {
-               font-size: 1.3rem;
+          font-size: 1.3rem;
           }
-
-          p,
-          ul,
-          ol,
-          dl,
+          p, ul, ol, dl, address {
+          font-size: 1.1rem;
+          }
+          p, li, dd, dt, address {
+          line-height: 1.5;
+          }
           address {
-               font-size: 1.1rem;
+          font-style: normal;
+          margin: 1rem 0;
           }
-
-          p,
-          li,
-          dd,
-          dt,
-          address {
-               line-height: 1.5;
-          }
-
-          address {
-               font-style: normal;
-               margin: 1rem 0;
-          }
-     </style>
-</head>
-
+          </style>
 <body>
-     <sender-column>
-          <b>Dr. Eleanor Gaye</b>
-          <br>Awesome Science faculty</br>
-          <sender-column>
-               University of Awesome</br>
-               Bobtown, CA 99999,</br>
-               USA</br>
-          </sender-column>
-          <b>Tel</b>: 123-456-7890
+    
+          <p class="sender-column">
+               <strong><b>Dr. Eleanor Gaye</b></strong>
+               <br>Awesome Science faculty</br>
+                         University of Awesome<br>
+                         Bobtown, CA 99999,</br>
+                         USA<br>
+               <b>Tel</b>: 123-456-7890
           <br><b>Email</b>: no_reply@example.com</br>
-
-          <sender-column>20 January 2016</sender-column>
-          </br>
-     </sender-column>
-
-     <b>Miss Eileen Dover</b>
+               20 January 2016 <br>
+          </p>
+     
+     <strong><b>Miss Eileen Dover</b></strong><br>
      4321 Cliff Top Edge</br>
      Dover, CT9 XXX</br>
      UK
      </p>
-     <br></br>
+     
      <h1>Re: Eileen Dover university application</h1>
 
      Dear Eileen,
@@ -90,13 +71,13 @@
           could start at the beginning of a semester; the start dates for each one are as follows:
           </br>
 
-     <div class="">First semester: 9 September 2016</div>
-     <div class="">Second semester: 15 January 2017</div>
-     <div class="">Third semester: 2 May 2017</div>
+     <div class="">First semester: <time datetime="2016-09-09">September 9, 2016</time></div>
+     <div class="">Second semester: January 15, 2017</div>
+     <div class="">Third semester: May 2, 2017</div>
 
      <br>Please let me know if this is ok, and if so which start date you would prefer.</br>
 
-     <br>You can find more information about important university dates on our website.</br>
+     <br>You can find more information about  <a href="http://example.com" title="Visit Example">important university dates</a>on our website.</br>
      </p>
 
 
@@ -132,10 +113,10 @@
 
      <br>
      <div>Polynesian chicken dance</div>
-     <div>
-          A little known but very influential dance dating back as far as 300BC, a whole village would dance around in
-          a circle like chickens, to encourage their livestock to be "fruitful".
-     </div>
+                <div>
+                    A little known but very influential dance dating back as far as 300BC, a whole village would dance around in
+                    a circle like chickens, to encourage their livestock to be "fruitful".
+                </div>
      <div>Icelandic brownian shuffle</div>
      <div>
           Before the Icelanders developed fire as a means of getting warm, they used to practice this dance,
@@ -151,14 +132,14 @@
           and Canada. Later on however it was discovered that they were just moving like this because they were really cold.
      </div>
      <br>
-     <div>For more of my research, see my exotic dance research page.</div>
+     <div>For more of my research, see my <a href="http://example.com" title="Visit Example">exotic dance research page</a>.</div>
      </br>
 
      <div>Yours sincerely,</div>
      <br>
      <div>Dr Eleanor Gaye</div>
-     <br>
-     <div>University of Awesome motto: "Be awesome to each other." -- Bill S Preston, Esq</div>
+      <br>
+<div>University of Awesome motto: "Be awesome to each other." -- Bill S Preston, Esq</div>
 </body>
 
 </html>
